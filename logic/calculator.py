@@ -29,7 +29,7 @@ class Calculate(object):
         '''
         introduced_year = self.initializer.introduce_year(introduced_year)
         if introduced_year == 0:
-            return None
+            return "0", None
         list_years = self.get_digits_number(introduced_year)
         if len(list_years) == 4:
             for i in range (0, len(list_years)):

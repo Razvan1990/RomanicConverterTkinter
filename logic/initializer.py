@@ -33,7 +33,7 @@ class Initializer:
             return 0
         return int(introduced_year)
 
-    def introduce_roman_number(self, introduced_roman_number: str):
+    def introduce_roman_number(self, introduced_roman_number: str) ->str:
         introduced_roman_number = introduced_roman_number.upper()
         # start the checks
         if self.conditions.check_letters(introduced_roman_number, self.dict_letters):

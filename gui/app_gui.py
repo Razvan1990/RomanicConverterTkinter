@@ -41,6 +41,7 @@ class GuiApp:
             buton_decimal_to_romanic["bg"] = "#A82232"
             label_result["text"] = ""
 
+
     def calculate_conversion(self, value_selected):
         if value_selected.get() == 0:
             messagebox.showerror("NO SELECTION", "Please choose the type of conversion you want")
